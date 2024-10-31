@@ -1,0 +1,38 @@
+h1{
+    font-size: 50px;
+
+    color:brown;
+    padding-left: 10px;   
+
+}
+h2{
+    font-size:35px;
+    color: #AA00FA;
+}
+h3{
+    color:#FA5800;
+}
+
+body{ 
+    
+    background-image: url("dbzlog2.png");
+    background-repeat: repeat;
+    background-size: 100%;
+    background-position: center;            
+    background-color: #00A1E0;    
+    margin:100px;      
+}
+footer{
+    padding-left: 400px;
+    padding-top: 450px;
+    width: 100px;
+    height: 70px;
+    color: white;
+}
+img{
+    width: 500px;            
+}
+#logosenac{    
+    width: 100px;
+    height: 75px;
+}
