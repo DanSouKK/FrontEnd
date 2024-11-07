@@ -1,0 +1,25 @@
+
+body {
+    background-color: black;
+}
+/* Ajuste na sobreposição do carrossel */
+.carousel-item .card-img-overlay {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end; /* Alinha o conteúdo ao fundo */
+    padding: 15px;
+}
+
+.carousel-item .card-img-overlay p {
+    margin-bottom: 15px; /* Espaço entre o texto e o botão */
+    color: white; /* Garante que o texto será legível */
+}
+
+.carousel-item .card-img-overlay .btn {
+    align-self: center; /* Centraliza o botão */
+}
+
+.carousel-item img {
+    object-fit: cover; /* Garante que a imagem cobre o espaço sem distorcer */
+    height: 100%; /* Faz a imagem cobrir o espaço da altura */
+}
